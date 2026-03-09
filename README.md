@@ -1,7 +1,7 @@
 # ⚠ This repository is currently under construction ⚠
 
 <p align="center">
-  <font size="6">  
+  <font size="12">  
     <a href="https://arxiv.org/abs/2503.21293">[PAPER]</a>
   </font>
 </p>
