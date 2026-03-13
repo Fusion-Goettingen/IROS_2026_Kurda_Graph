@@ -1,0 +1,12 @@
+────────────────────────── Results for MulranDataset Sequence Riverside01 ──────────────────────────
++---------------------------------+-------+----------+
+|                          Metric | Value | Units    |
++=================================+=======+==========+
+|       Average Translation Error | 3.165 | %        |
+|        Average Rotational Error | 0.007 | deg/m    |
+| Absolute Trajectory Error (ATE) | 5.732 | m        |
+| Absolute Rotational Error (ARE) | 0.045 | rad      |
+|               Average Frequency |  50   | Hz       |
+|                 Average Runtime |  20   | ms       |
+|        Number of closures found |  28   | closures |
++---------------------------------+-------+----------+

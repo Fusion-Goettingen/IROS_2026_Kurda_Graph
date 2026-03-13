@@ -1,0 +1,11 @@
+───────────────────────── Results for OdysseyDataset Sequence ForestRoad1 ──────────────────────────
++---------------------------------+-------+-------+
+|                          Metric | Value | Units |
++=================================+=======+=======+
+|       Average Translation Error | 1.194 | %     |
+|        Average Rotational Error | 0.005 | deg/m |
+| Absolute Trajectory Error (ATE) | 1.767 | m     |
+| Absolute Rotational Error (ARE) | 0.026 | rad   |
+|               Average Frequency |  28   | Hz    |
+|                 Average Runtime |  36   | ms    |
++---------------------------------+-------+-------+

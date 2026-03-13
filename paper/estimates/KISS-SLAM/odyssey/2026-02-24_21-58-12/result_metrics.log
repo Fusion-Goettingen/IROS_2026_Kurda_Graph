@@ -1,0 +1,12 @@
+─────────────────────────── Results for OdysseyDataset Sequence Beltway3 ───────────────────────────
++---------------------------------+-------+----------+
+|                          Metric | Value | Units    |
++=================================+=======+==========+
+|       Average Translation Error | 1.156 | %        |
+|        Average Rotational Error | 0.005 | deg/m    |
+| Absolute Trajectory Error (ATE) | 2.358 | m        |
+| Absolute Rotational Error (ARE) | 0.027 | rad      |
+|               Average Frequency |  20   | Hz       |
+|                 Average Runtime |  49   | ms       |
+|        Number of closures found |   0   | closures |
++---------------------------------+-------+----------+

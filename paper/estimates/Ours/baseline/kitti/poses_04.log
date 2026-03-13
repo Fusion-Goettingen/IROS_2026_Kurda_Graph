@@ -1,0 +1,327 @@
+./build/slamsimilliav2 --base_dir /media/aaron/dataset-ssd/datasets/KITTI-odometry --seq 04 --dataloader kitti --poses_path ./out/hpc/final_3/baseline_speed/kitti/poses_04.txt --config_path ./out/hpc/final_3/baseline_speed/kitti/config.json --go_robust true --go_init_sigma -0.3 --go_optimize_only_last_pose false --information_matrix icp_diag
+{
+    "deskew": false,
+    "diagonal_information_only": true,
+    "distance_mode": "last",
+    "edge_composition_method": "naiive",
+    "enable_graph_optimization": true,
+    "go_adaptive": false,
+    "go_alpha": 1.0,
+    "go_form_implicit_edges": "strat_2",
+    "go_init_sigma": -0.30000001192092896,
+    "go_lambda": 0.0,
+    "go_maximum_iterations": 100,
+    "go_minimum_magnitude": 1e-05,
+    "go_optimize_only_last_pose": false,
+    "go_robust": true,
+    "icp_adaptive": true,
+    "icp_adaptive_lidar_distance": 160.0,
+    "icp_alpha": 1.0,
+    "icp_enable_transformation_magnitude": false,
+    "icp_init_sigma": 1.0,
+    "icp_lambda": 0.0,
+    "icp_maximum_iterations": 100,
+    "icp_minimum_corresposdences": 200,
+    "icp_minumum_magnitude": 1e-05,
+    "information_matrix": "icp_diag",
+    "insert_point_to_old_keyframe": true,
+    "insert_point_using_go_output": true,
+    "intensity_scaling": 0.0,
+    "inverse_strategy": "naiive",
+    "keyframe_maximum_distance": 30.0,
+    "keyframe_minimum_distance": 9.0,
+    "map_max_points_per_voxel": 20,
+    "map_voxelsize": 1.6,
+    "preprecessing_subsampling_method": "voxel",
+    "preprocessing_remove_nans": false,
+    "prune_distant_voxels": false,
+    "remove_non_keyframes": true,
+    "subsampling_random_by_range_dmax": 160.0,
+    "subsampling_random_by_range_p1": 3000.0,
+    "subsampling_random_by_range_p2": 3000.0,
+    "subsampling_voxelsize_icp": 1.8,
+    "subsampling_voxelsize_map": 0.4,
+    "voxel_pruning_distance": 1000000000.0
+}
+Start running
+ WARNING: 0 edges at frame 0
+It: 0 #keyframes: 0 avg. #ICP iterations: -nan avg. #corrs. -nan sec: 0.017
+It: 1 #keyframes: 1 avg. #ICP iterations: 28 avg. #corrs. 2993, |G|: 1 sec: 0.071
+It: 2 #keyframes: 1 avg. #ICP iterations: 28 avg. #corrs. 2947, |G|: 1 sec: 0.08
+It: 3 #keyframes: 1 avg. #ICP iterations: 8 avg. #corrs. 2942, |G|: 1 sec: 0.039
+It: 4 #keyframes: 1 avg. #ICP iterations: 11 avg. #corrs. 2940, |G|: 1 sec: 0.062
+It: 5 #keyframes: 1 avg. #ICP iterations: 15 avg. #corrs. 2928, |G|: 1 sec: 0.073
+It: 6 #keyframes: 1 avg. #ICP iterations: 18 avg. #corrs. 2914, |G|: 1 sec: 0.064
+It: 7 #keyframes: 1 avg. #ICP iterations: 11 avg. #corrs. 2948, |G|: 2 sec: 0.04
+It: 8 #keyframes: 2 avg. #ICP iterations: 10.5 avg. #corrs. 2916, |G|: 2 sec: 0.04
+It: 9 #keyframes: 2 avg. #ICP iterations: 15 avg. #corrs. 2953.5, |G|: 2 sec: 0.069
+It: 10 #keyframes: 2 avg. #ICP iterations: 13 avg. #corrs. 2929.5, |G|: 2 sec: 0.057
+It: 11 #keyframes: 2 avg. #ICP iterations: 15.5 avg. #corrs. 2938.5, |G|: 2 sec: 0.074
+It: 12 #keyframes: 2 avg. #ICP iterations: 16 avg. #corrs. 2934.5, |G|: 2 sec: 0.081
+It: 13 #keyframes: 2 avg. #ICP iterations: 17.5 avg. #corrs. 2925, |G|: 2 sec: 0.087
+It: 14 #keyframes: 2 avg. #ICP iterations: 15 avg. #corrs. 2907.5, |G|: 3 sec: 0.061
+It: 15 #keyframes: 3 avg. #ICP iterations: 16.3333 avg. #corrs. 2917.33, |G|: 3 sec: 0.089
+It: 16 #keyframes: 3 avg. #ICP iterations: 13.6667 avg. #corrs. 2955.33, |G|: 3 sec: 0.073
+It: 17 #keyframes: 3 avg. #ICP iterations: 18.3333 avg. #corrs. 2348.67, |G|: 3 sec: 0.084
+It: 18 #keyframes: 3 avg. #ICP iterations: 19.6667 avg. #corrs. 2306, |G|: 3 sec: 0.064
+It: 19 #keyframes: 3 avg. #ICP iterations: 18.6667 avg. #corrs. 2233.33, |G|: 3 sec: 0.088
+It: 20 #keyframes: 3 avg. #ICP iterations: 20.3333 avg. #corrs. 2199, |G|: 3 sec: 0.075
+It: 21 #keyframes: 3 avg. #ICP iterations: 20 avg. #corrs. 2171, |G|: 4 sec: 0.075
+It: 22 #keyframes: 4 avg. #ICP iterations: 18.25 avg. #corrs. 2282.75, |G|: 4 sec: 0.079
+It: 23 #keyframes: 4 avg. #ICP iterations: 18.75 avg. #corrs. 2291.25, |G|: 4 sec: 0.072
+It: 24 #keyframes: 4 avg. #ICP iterations: 16.5 avg. #corrs. 2237, |G|: 4 sec: 0.069
+It: 25 #keyframes: 4 avg. #ICP iterations: 22.75 avg. #corrs. 2195.5, |G|: 4 sec: 0.092
+It: 26 #keyframes: 4 avg. #ICP iterations: 24.75 avg. #corrs. 2137, |G|: 4 sec: 0.096
+It: 27 #keyframes: 4 avg. #ICP iterations: 21.75 avg. #corrs. 2054.25, |G|: 4 sec: 0.088
+It: 28 #keyframes: 4 avg. #ICP iterations: 21.5 avg. #corrs. 1924.75, |G|: 4 sec: 0.071
+It: 29 #keyframes: 4 avg. #ICP iterations: 18.75 avg. #corrs. 2117, |G|: 4 sec: 0.095
+It: 30 #keyframes: 4 avg. #ICP iterations: 19.75 avg. #corrs. 2085, |G|: 4 sec: 0.076
+It: 31 #keyframes: 4 avg. #ICP iterations: 22.75 avg. #corrs. 2031.5, |G|: 4 sec: 0.084
+It: 32 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1982.25, |G|: 4 sec: 0.105
+It: 33 #keyframes: 4 avg. #ICP iterations: 23 avg. #corrs. 1941.75, |G|: 4 sec: 0.088
+It: 34 #keyframes: 4 avg. #ICP iterations: 23 avg. #corrs. 1916.75, |G|: 4 sec: 0.066
+It: 35 #keyframes: 4 avg. #ICP iterations: 29.5 avg. #corrs. 1829, |G|: 4 sec: 0.09
+It: 36 #keyframes: 4 avg. #ICP iterations: 23 avg. #corrs. 1946, |G|: 4 sec: 0.095
+It: 37 #keyframes: 4 avg. #ICP iterations: 16.75 avg. #corrs. 1873.25, |G|: 4 sec: 0.077
+It: 38 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1845, |G|: 4 sec: 0.065
+It: 39 #keyframes: 4 avg. #ICP iterations: 24 avg. #corrs. 1790, |G|: 4 sec: 0.081
+It: 40 #keyframes: 4 avg. #ICP iterations: 21.75 avg. #corrs. 1739, |G|: 4 sec: 0.067
+It: 41 #keyframes: 4 avg. #ICP iterations: 25.25 avg. #corrs. 1691.75, |G|: 4 sec: 0.084
+It: 42 #keyframes: 4 avg. #ICP iterations: 18.75 avg. #corrs. 1665.75, |G|: 4 sec: 0.086
+It: 43 #keyframes: 4 avg. #ICP iterations: 25.75 avg. #corrs. 1738.75, |G|: 4 sec: 0.103
+It: 44 #keyframes: 4 avg. #ICP iterations: 23.5 avg. #corrs. 1723.25, |G|: 4 sec: 0.08
+It: 45 #keyframes: 4 avg. #ICP iterations: 36.75 avg. #corrs. 1671.5, |G|: 4 sec: 0.118
+It: 46 #keyframes: 4 avg. #ICP iterations: 25.25 avg. #corrs. 1651, |G|: 4 sec: 0.071
+It: 47 #keyframes: 4 avg. #ICP iterations: 18.75 avg. #corrs. 1562.5, |G|: 4 sec: 0.066
+It: 48 #keyframes: 4 avg. #ICP iterations: 19 avg. #corrs. 1542.75, |G|: 4 sec: 0.052
+It: 49 #keyframes: 4 avg. #ICP iterations: 29.25 avg. #corrs. 1496.5, |G|: 4 sec: 0.076
+It: 50 #keyframes: 4 avg. #ICP iterations: 24.75 avg. #corrs. 1583.75, |G|: 4 sec: 0.071
+It: 51 #keyframes: 4 avg. #ICP iterations: 29.5 avg. #corrs. 1509.5, |G|: 4 sec: 0.086
+It: 52 #keyframes: 4 avg. #ICP iterations: 31.25 avg. #corrs. 1463.25, |G|: 4 sec: 0.069
+It: 53 #keyframes: 4 avg. #ICP iterations: 27.25 avg. #corrs. 1394.75, |G|: 4 sec: 0.074
+It: 54 #keyframes: 4 avg. #ICP iterations: 33 avg. #corrs. 1368.75, |G|: 4 sec: 0.092
+It: 55 #keyframes: 4 avg. #ICP iterations: 22.25 avg. #corrs. 1297, |G|: 4 sec: 0.071
+It: 56 #keyframes: 4 avg. #ICP iterations: 27.5 avg. #corrs. 1292, |G|: 4 sec: 0.088
+It: 57 #keyframes: 4 avg. #ICP iterations: 20.5 avg. #corrs. 1377, |G|: 4 sec: 0.063
+It: 58 #keyframes: 4 avg. #ICP iterations: 15.25 avg. #corrs. 1359.75, |G|: 4 sec: 0.057
+It: 59 #keyframes: 4 avg. #ICP iterations: 17 avg. #corrs. 1351.75, |G|: 4 sec: 0.057
+It: 60 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1322.75, |G|: 4 sec: 0.055
+It: 61 #keyframes: 4 avg. #ICP iterations: 26.75 avg. #corrs. 1325.25, |G|: 4 sec: 0.081
+It: 62 #keyframes: 4 avg. #ICP iterations: 30.5 avg. #corrs. 1308.5, |G|: 4 sec: 0.071
+It: 63 #keyframes: 4 avg. #ICP iterations: 20 avg. #corrs. 1296.5, |G|: 4 sec: 0.063
+It: 64 #keyframes: 4 avg. #ICP iterations: 22 avg. #corrs. 1392, |G|: 4 sec: 0.07
+It: 65 #keyframes: 4 avg. #ICP iterations: 25.25 avg. #corrs. 1369.5, |G|: 4 sec: 0.059
+It: 66 #keyframes: 4 avg. #ICP iterations: 19.75 avg. #corrs. 1364.75, |G|: 4 sec: 0.066
+It: 67 #keyframes: 4 avg. #ICP iterations: 29.5 avg. #corrs. 1345.25, |G|: 4 sec: 0.09
+It: 68 #keyframes: 4 avg. #ICP iterations: 18.75 avg. #corrs. 1326.5, |G|: 4 sec: 0.046
+It: 69 #keyframes: 4 avg. #ICP iterations: 20 avg. #corrs. 1300.5, |G|: 4 sec: 0.058
+It: 70 #keyframes: 4 avg. #ICP iterations: 34.25 avg. #corrs. 1281.5, |G|: 4 sec: 0.073
+It: 71 #keyframes: 4 avg. #ICP iterations: 28 avg. #corrs. 1398.75, |G|: 4 sec: 0.074
+It: 72 #keyframes: 4 avg. #ICP iterations: 27 avg. #corrs. 1386, |G|: 4 sec: 0.057
+It: 73 #keyframes: 4 avg. #ICP iterations: 24.25 avg. #corrs. 1386.5, |G|: 4 sec: 0.083
+It: 74 #keyframes: 4 avg. #ICP iterations: 25.25 avg. #corrs. 1367.5, |G|: 4 sec: 0.069
+It: 75 #keyframes: 4 avg. #ICP iterations: 26 avg. #corrs. 1332, |G|: 4 sec: 0.062
+It: 76 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1326.75, |G|: 4 sec: 0.071
+It: 77 #keyframes: 4 avg. #ICP iterations: 20.75 avg. #corrs. 1336.25, |G|: 4 sec: 0.064
+It: 78 #keyframes: 4 avg. #ICP iterations: 24 avg. #corrs. 1446.5, |G|: 4 sec: 0.073
+It: 79 #keyframes: 4 avg. #ICP iterations: 17.75 avg. #corrs. 1477.75, |G|: 4 sec: 0.074
+It: 80 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1423.5, |G|: 4 sec: 0.075
+It: 81 #keyframes: 4 avg. #ICP iterations: 23 avg. #corrs. 1444.25, |G|: 4 sec: 0.091
+It: 82 #keyframes: 4 avg. #ICP iterations: 18.25 avg. #corrs. 1453.25, |G|: 4 sec: 0.054
+It: 83 #keyframes: 4 avg. #ICP iterations: 24.75 avg. #corrs. 1448.25, |G|: 4 sec: 0.095
+It: 84 #keyframes: 4 avg. #ICP iterations: 23.25 avg. #corrs. 1439.25, |G|: 4 sec: 0.082
+It: 85 #keyframes: 4 avg. #ICP iterations: 17.75 avg. #corrs. 1548.75, |G|: 4 sec: 0.08
+It: 86 #keyframes: 4 avg. #ICP iterations: 17 avg. #corrs. 1487, |G|: 4 sec: 0.043
+It: 87 #keyframes: 4 avg. #ICP iterations: 14.5 avg. #corrs. 1462.5, |G|: 4 sec: 0.045
+It: 88 #keyframes: 4 avg. #ICP iterations: 20.5 avg. #corrs. 1439.75, |G|: 4 sec: 0.06
+It: 89 #keyframes: 4 avg. #ICP iterations: 24 avg. #corrs. 1425.25, |G|: 4 sec: 0.09
+It: 90 #keyframes: 4 avg. #ICP iterations: 22.25 avg. #corrs. 1412.5, |G|: 4 sec: 0.072
+It: 91 #keyframes: 4 avg. #ICP iterations: 25.25 avg. #corrs. 1377.75, |G|: 4 sec: 0.064
+It: 92 #keyframes: 4 avg. #ICP iterations: 18 avg. #corrs. 1445, |G|: 4 sec: 0.074
+It: 93 #keyframes: 4 avg. #ICP iterations: 19.25 avg. #corrs. 1421.25, |G|: 4 sec: 0.058
+It: 94 #keyframes: 4 avg. #ICP iterations: 19.25 avg. #corrs. 1389.75, |G|: 4 sec: 0.052
+It: 95 #keyframes: 4 avg. #ICP iterations: 26.75 avg. #corrs. 1357.25, |G|: 4 sec: 0.058
+It: 96 #keyframes: 4 avg. #ICP iterations: 23 avg. #corrs. 1312.5, |G|: 4 sec: 0.092
+It: 97 #keyframes: 4 avg. #ICP iterations: 24.5 avg. #corrs. 1241.25, |G|: 4 sec: 0.061
+It: 98 #keyframes: 4 avg. #ICP iterations: 20 avg. #corrs. 1238.75, |G|: 4 sec: 0.058
+It: 99 #keyframes: 4 avg. #ICP iterations: 19 avg. #corrs. 1240.5, |G|: 4 sec: 0.05
+It: 100 #keyframes: 4 avg. #ICP iterations: 26.25 avg. #corrs. 1244, |G|: 4 sec: 0.066
+It: 101 #keyframes: 4 avg. #ICP iterations: 31.75 avg. #corrs. 1222.25, |G|: 4 sec: 0.091
+It: 102 #keyframes: 4 avg. #ICP iterations: 25.25 avg. #corrs. 1182, |G|: 4 sec: 0.057
+It: 103 #keyframes: 4 avg. #ICP iterations: 22.75 avg. #corrs. 1173, |G|: 4 sec: 0.074
+It: 104 #keyframes: 4 avg. #ICP iterations: 24.25 avg. #corrs. 1158, |G|: 4 sec: 0.061
+It: 105 #keyframes: 4 avg. #ICP iterations: 15.25 avg. #corrs. 1137.75, |G|: 4 sec: 0.051
+It: 106 #keyframes: 4 avg. #ICP iterations: 18.75 avg. #corrs. 1198.75, |G|: 4 sec: 0.037
+It: 107 #keyframes: 4 avg. #ICP iterations: 26.25 avg. #corrs. 1216.5, |G|: 4 sec: 0.055
+It: 108 #keyframes: 4 avg. #ICP iterations: 22.75 avg. #corrs. 1209.25, |G|: 4 sec: 0.066
+It: 109 #keyframes: 4 avg. #ICP iterations: 23 avg. #corrs. 1222.5, |G|: 4 sec: 0.052
+It: 110 #keyframes: 4 avg. #ICP iterations: 35.75 avg. #corrs. 1246.25, |G|: 4 sec: 0.073
+It: 111 #keyframes: 4 avg. #ICP iterations: 22 avg. #corrs. 1260.25, |G|: 4 sec: 0.071
+It: 112 #keyframes: 4 avg. #ICP iterations: 26 avg. #corrs. 1247.5, |G|: 4 sec: 0.093
+It: 113 #keyframes: 4 avg. #ICP iterations: 25.75 avg. #corrs. 1312, |G|: 4 sec: 0.065
+It: 114 #keyframes: 4 avg. #ICP iterations: 20.5 avg. #corrs. 1290.25, |G|: 4 sec: 0.054
+It: 115 #keyframes: 4 avg. #ICP iterations: 20.5 avg. #corrs. 1295.25, |G|: 4 sec: 0.056
+It: 116 #keyframes: 4 avg. #ICP iterations: 16 avg. #corrs. 1281, |G|: 4 sec: 0.059
+It: 117 #keyframes: 4 avg. #ICP iterations: 18.75 avg. #corrs. 1263.25, |G|: 4 sec: 0.058
+It: 118 #keyframes: 4 avg. #ICP iterations: 20.25 avg. #corrs. 1220.25, |G|: 4 sec: 0.057
+It: 119 #keyframes: 4 avg. #ICP iterations: 26.25 avg. #corrs. 1223, |G|: 4 sec: 0.06
+It: 120 #keyframes: 4 avg. #ICP iterations: 20.75 avg. #corrs. 1315.5, |G|: 4 sec: 0.044
+It: 121 #keyframes: 4 avg. #ICP iterations: 19.25 avg. #corrs. 1314, |G|: 4 sec: 0.041
+It: 122 #keyframes: 4 avg. #ICP iterations: 22.25 avg. #corrs. 1270.5, |G|: 4 sec: 0.051
+It: 123 #keyframes: 4 avg. #ICP iterations: 21 avg. #corrs. 1247, |G|: 4 sec: 0.059
+It: 124 #keyframes: 4 avg. #ICP iterations: 22 avg. #corrs. 1228.75, |G|: 4 sec: 0.067
+It: 125 #keyframes: 4 avg. #ICP iterations: 25 avg. #corrs. 1218.25, |G|: 4 sec: 0.044
+It: 126 #keyframes: 4 avg. #ICP iterations: 21.75 avg. #corrs. 1179.5, |G|: 4 sec: 0.038
+It: 127 #keyframes: 4 avg. #ICP iterations: 24.5 avg. #corrs. 1231.5, |G|: 4 sec: 0.061
+It: 128 #keyframes: 4 avg. #ICP iterations: 14.5 avg. #corrs. 1170, |G|: 4 sec: 0.028
+It: 129 #keyframes: 4 avg. #ICP iterations: 23.5 avg. #corrs. 1111.75, |G|: 4 sec: 0.045
+It: 130 #keyframes: 4 avg. #ICP iterations: 23.75 avg. #corrs. 1078.75, |G|: 4 sec: 0.053
+It: 131 #keyframes: 4 avg. #ICP iterations: 22.5 avg. #corrs. 1119, |G|: 4 sec: 0.058
+It: 132 #keyframes: 4 avg. #ICP iterations: 24 avg. #corrs. 1142.75, |G|: 4 sec: 0.072
+It: 133 #keyframes: 4 avg. #ICP iterations: 14.5 avg. #corrs. 1207, |G|: 4 sec: 0.051
+It: 134 #keyframes: 4 avg. #ICP iterations: 17.25 avg. #corrs. 1258.25, |G|: 4 sec: 0.046
+It: 135 #keyframes: 4 avg. #ICP iterations: 30.25 avg. #corrs. 1259, |G|: 4 sec: 0.084
+It: 136 #keyframes: 4 avg. #ICP iterations: 30.25 avg. #corrs. 1219.25, |G|: 4 sec: 0.092
+It: 137 #keyframes: 4 avg. #ICP iterations: 15 avg. #corrs. 1174, |G|: 4 sec: 0.06
+It: 138 #keyframes: 4 avg. #ICP iterations: 17.5 avg. #corrs. 1141.25, |G|: 4 sec: 0.033
+It: 139 #keyframes: 4 avg. #ICP iterations: 26.75 avg. #corrs. 1137.5, |G|: 4 sec: 0.06
+It: 140 #keyframes: 4 avg. #ICP iterations: 28.25 avg. #corrs. 1130, |G|: 4 sec: 0.091
+It: 141 #keyframes: 4 avg. #ICP iterations: 22.25 avg. #corrs. 1233.25, |G|: 4 sec: 0.048
+It: 142 #keyframes: 4 avg. #ICP iterations: 36 avg. #corrs. 1273.25, |G|: 4 sec: 0.083
+It: 143 #keyframes: 4 avg. #ICP iterations: 18.25 avg. #corrs. 1296.75, |G|: 4 sec: 0.059
+It: 144 #keyframes: 4 avg. #ICP iterations: 16.25 avg. #corrs. 1313, |G|: 4 sec: 0.049
+It: 145 #keyframes: 4 avg. #ICP iterations: 22.75 avg. #corrs. 1332.75, |G|: 4 sec: 0.052
+It: 146 #keyframes: 4 avg. #ICP iterations: 25.25 avg. #corrs. 1341, |G|: 4 sec: 0.066
+It: 147 #keyframes: 4 avg. #ICP iterations: 20.75 avg. #corrs. 1280.5, |G|: 4 sec: 0.04
+It: 148 #keyframes: 4 avg. #ICP iterations: 18 avg. #corrs. 1417.5, |G|: 4 sec: 0.054
+It: 149 #keyframes: 4 avg. #ICP iterations: 18 avg. #corrs. 1398.5, |G|: 4 sec: 0.063
+It: 150 #keyframes: 4 avg. #ICP iterations: 22.75 avg. #corrs. 1380.25, |G|: 4 sec: 0.051
+It: 151 #keyframes: 4 avg. #ICP iterations: 25.25 avg. #corrs. 1363.25, |G|: 4 sec: 0.077
+It: 152 #keyframes: 4 avg. #ICP iterations: 18.5 avg. #corrs. 1369.75, |G|: 4 sec: 0.062
+It: 153 #keyframes: 4 avg. #ICP iterations: 21.75 avg. #corrs. 1368, |G|: 4 sec: 0.049
+It: 154 #keyframes: 4 avg. #ICP iterations: 15 avg. #corrs. 1334.25, |G|: 4 sec: 0.046
+It: 155 #keyframes: 4 avg. #ICP iterations: 20.75 avg. #corrs. 1431, |G|: 4 sec: 0.045
+It: 156 #keyframes: 4 avg. #ICP iterations: 21.5 avg. #corrs. 1377, |G|: 4 sec: 0.051
+It: 157 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1327.5, |G|: 4 sec: 0.066
+It: 158 #keyframes: 4 avg. #ICP iterations: 19.25 avg. #corrs. 1316, |G|: 4 sec: 0.061
+It: 159 #keyframes: 4 avg. #ICP iterations: 20.75 avg. #corrs. 1282.5, |G|: 4 sec: 0.065
+It: 160 #keyframes: 4 avg. #ICP iterations: 21 avg. #corrs. 1302, |G|: 4 sec: 0.057
+It: 161 #keyframes: 4 avg. #ICP iterations: 16 avg. #corrs. 1284.25, |G|: 3 sec: 0.045
+It: 162 #keyframes: 3 avg. #ICP iterations: 22 avg. #corrs. 1473, |G|: 3 sec: 0.081
+It: 163 #keyframes: 3 avg. #ICP iterations: 19.6667 avg. #corrs. 1504, |G|: 3 sec: 0.06
+It: 164 #keyframes: 3 avg. #ICP iterations: 21 avg. #corrs. 1285.33, |G|: 3 sec: 0.063
+It: 165 #keyframes: 3 avg. #ICP iterations: 21 avg. #corrs. 1273.33, |G|: 3 sec: 0.078
+It: 166 #keyframes: 3 avg. #ICP iterations: 17.3333 avg. #corrs. 1287, |G|: 3 sec: 0.03
+It: 167 #keyframes: 3 avg. #ICP iterations: 44.3333 avg. #corrs. 1254, |G|: 3 sec: 0.069
+It: 168 #keyframes: 3 avg. #ICP iterations: 28.3333 avg. #corrs. 1239, |G|: 3 sec: 0.066
+It: 169 #keyframes: 3 avg. #ICP iterations: 19.3333 avg. #corrs. 1446.67, |G|: 3 sec: 0.052
+It: 170 #keyframes: 3 avg. #ICP iterations: 15 avg. #corrs. 1431.33, |G|: 3 sec: 0.04
+It: 171 #keyframes: 3 avg. #ICP iterations: 20.6667 avg. #corrs. 1233.67, |G|: 3 sec: 0.04
+It: 172 #keyframes: 3 avg. #ICP iterations: 29.6667 avg. #corrs. 1229, |G|: 3 sec: 0.067
+It: 173 #keyframes: 3 avg. #ICP iterations: 26.3333 avg. #corrs. 1216.33, |G|: 3 sec: 0.058
+It: 174 #keyframes: 3 avg. #ICP iterations: 24.6667 avg. #corrs. 1216.33, |G|: 4 sec: 0.054
+It: 175 #keyframes: 4 avg. #ICP iterations: 27.5 avg. #corrs. 1204.75, |G|: 4 sec: 0.079
+It: 176 #keyframes: 4 avg. #ICP iterations: 24 avg. #corrs. 1214.75, |G|: 4 sec: 0.047
+It: 177 #keyframes: 4 avg. #ICP iterations: 22 avg. #corrs. 1245.5, |G|: 4 sec: 0.061
+It: 178 #keyframes: 4 avg. #ICP iterations: 24.5 avg. #corrs. 1211.25, |G|: 4 sec: 0.067
+It: 179 #keyframes: 4 avg. #ICP iterations: 17 avg. #corrs. 1185, |G|: 4 sec: 0.046
+It: 180 #keyframes: 4 avg. #ICP iterations: 22.75 avg. #corrs. 1168.5, |G|: 4 sec: 0.063
+It: 181 #keyframes: 4 avg. #ICP iterations: 20 avg. #corrs. 1248.75, |G|: 4 sec: 0.071
+It: 182 #keyframes: 4 avg. #ICP iterations: 22 avg. #corrs. 1238.5, |G|: 4 sec: 0.052
+It: 183 #keyframes: 4 avg. #ICP iterations: 19.5 avg. #corrs. 1222, |G|: 4 sec: 0.066
+It: 184 #keyframes: 4 avg. #ICP iterations: 17.25 avg. #corrs. 1205, |G|: 4 sec: 0.045
+It: 185 #keyframes: 4 avg. #ICP iterations: 20 avg. #corrs. 1215.25, |G|: 4 sec: 0.054
+It: 186 #keyframes: 4 avg. #ICP iterations: 30 avg. #corrs. 1194.5, |G|: 4 sec: 0.073
+It: 187 #keyframes: 4 avg. #ICP iterations: 18.75 avg. #corrs. 1274.75, |G|: 4 sec: 0.053
+It: 188 #keyframes: 4 avg. #ICP iterations: 22.25 avg. #corrs. 1271.25, |G|: 4 sec: 0.079
+It: 189 #keyframes: 4 avg. #ICP iterations: 19 avg. #corrs. 1252.25, |G|: 4 sec: 0.055
+It: 190 #keyframes: 4 avg. #ICP iterations: 19 avg. #corrs. 1223.25, |G|: 4 sec: 0.062
+It: 191 #keyframes: 4 avg. #ICP iterations: 24.5 avg. #corrs. 1187.75, |G|: 4 sec: 0.07
+It: 192 #keyframes: 4 avg. #ICP iterations: 23.25 avg. #corrs. 1197.5, |G|: 4 sec: 0.063
+It: 193 #keyframes: 4 avg. #ICP iterations: 34.25 avg. #corrs. 1235.75, |G|: 4 sec: 0.104
+It: 194 #keyframes: 4 avg. #ICP iterations: 24 avg. #corrs. 1251, |G|: 4 sec: 0.081
+It: 195 #keyframes: 4 avg. #ICP iterations: 26.25 avg. #corrs. 1247, |G|: 4 sec: 0.082
+It: 196 #keyframes: 4 avg. #ICP iterations: 24.25 avg. #corrs. 1233.5, |G|: 4 sec: 0.07
+It: 197 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1216.25, |G|: 4 sec: 0.051
+It: 198 #keyframes: 4 avg. #ICP iterations: 21.5 avg. #corrs. 1192, |G|: 4 sec: 0.043
+It: 199 #keyframes: 4 avg. #ICP iterations: 25.75 avg. #corrs. 1263.25, |G|: 4 sec: 0.076
+It: 200 #keyframes: 4 avg. #ICP iterations: 18.5 avg. #corrs. 1245.75, |G|: 4 sec: 0.044
+It: 201 #keyframes: 4 avg. #ICP iterations: 16.5 avg. #corrs. 1267.25, |G|: 4 sec: 0.071
+It: 202 #keyframes: 4 avg. #ICP iterations: 21.5 avg. #corrs. 1275.75, |G|: 4 sec: 0.072
+It: 203 #keyframes: 4 avg. #ICP iterations: 22.5 avg. #corrs. 1282.75, |G|: 4 sec: 0.07
+It: 204 #keyframes: 4 avg. #ICP iterations: 20.75 avg. #corrs. 1293.5, |G|: 4 sec: 0.068
+It: 205 #keyframes: 4 avg. #ICP iterations: 24.25 avg. #corrs. 1363.5, |G|: 4 sec: 0.086
+It: 206 #keyframes: 4 avg. #ICP iterations: 32.25 avg. #corrs. 1377, |G|: 4 sec: 0.097
+It: 207 #keyframes: 4 avg. #ICP iterations: 29.5 avg. #corrs. 1377.25, |G|: 4 sec: 0.075
+It: 208 #keyframes: 4 avg. #ICP iterations: 24.5 avg. #corrs. 1360, |G|: 4 sec: 0.07
+It: 209 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1352.5, |G|: 4 sec: 0.074
+It: 210 #keyframes: 4 avg. #ICP iterations: 21.25 avg. #corrs. 1328, |G|: 4 sec: 0.083
+It: 211 #keyframes: 4 avg. #ICP iterations: 21.75 avg. #corrs. 1319.5, |G|: 4 sec: 0.065
+It: 212 #keyframes: 4 avg. #ICP iterations: 26.25 avg. #corrs. 1307.5, |G|: 4 sec: 0.089
+It: 213 #keyframes: 4 avg. #ICP iterations: 24.75 avg. #corrs. 1296.75, |G|: 4 sec: 0.087
+It: 214 #keyframes: 4 avg. #ICP iterations: 21.5 avg. #corrs. 1262, |G|: 4 sec: 0.069
+It: 215 #keyframes: 4 avg. #ICP iterations: 17.25 avg. #corrs. 1228, |G|: 4 sec: 0.059
+It: 216 #keyframes: 4 avg. #ICP iterations: 23.5 avg. #corrs. 1221.25, |G|: 4 sec: 0.064
+It: 217 #keyframes: 4 avg. #ICP iterations: 16.75 avg. #corrs. 1328.75, |G|: 4 sec: 0.056
+It: 218 #keyframes: 4 avg. #ICP iterations: 12.25 avg. #corrs. 1384, |G|: 4 sec: 0.052
+It: 219 #keyframes: 4 avg. #ICP iterations: 23 avg. #corrs. 1366, |G|: 4 sec: 0.07
+It: 220 #keyframes: 4 avg. #ICP iterations: 31.25 avg. #corrs. 1381, |G|: 4 sec: 0.083
+It: 221 #keyframes: 4 avg. #ICP iterations: 25.5 avg. #corrs. 1353.25, |G|: 4 sec: 0.061
+It: 222 #keyframes: 4 avg. #ICP iterations: 27.75 avg. #corrs. 1347.5, |G|: 4 sec: 0.07
+It: 223 #keyframes: 4 avg. #ICP iterations: 20.5 avg. #corrs. 1657, |G|: 4 sec: 0.055
+It: 224 #keyframes: 4 avg. #ICP iterations: 17.75 avg. #corrs. 1647.5, |G|: 4 sec: 0.07
+It: 225 #keyframes: 4 avg. #ICP iterations: 19 avg. #corrs. 1641.5, |G|: 4 sec: 0.072
+It: 226 #keyframes: 4 avg. #ICP iterations: 13 avg. #corrs. 1641.5, |G|: 4 sec: 0.069
+It: 227 #keyframes: 4 avg. #ICP iterations: 21.5 avg. #corrs. 1642.5, |G|: 4 sec: 0.065
+It: 228 #keyframes: 4 avg. #ICP iterations: 25 avg. #corrs. 1584.5, |G|: 4 sec: 0.086
+It: 229 #keyframes: 4 avg. #ICP iterations: 17.5 avg. #corrs. 1866, |G|: 4 sec: 0.06
+It: 230 #keyframes: 4 avg. #ICP iterations: 23.5 avg. #corrs. 1915.75, |G|: 4 sec: 0.082
+It: 231 #keyframes: 4 avg. #ICP iterations: 16 avg. #corrs. 1898.5, |G|: 4 sec: 0.063
+It: 232 #keyframes: 4 avg. #ICP iterations: 19.5 avg. #corrs. 1882, |G|: 4 sec: 0.098
+It: 233 #keyframes: 4 avg. #ICP iterations: 20.5 avg. #corrs. 1879.25, |G|: 4 sec: 0.073
+It: 234 #keyframes: 4 avg. #ICP iterations: 24.5 avg. #corrs. 1872.75, |G|: 4 sec: 0.098
+It: 235 #keyframes: 4 avg. #ICP iterations: 14.25 avg. #corrs. 2236.5, |G|: 4 sec: 0.069
+It: 236 #keyframes: 4 avg. #ICP iterations: 17.75 avg. #corrs. 2268, |G|: 4 sec: 0.075
+It: 237 #keyframes: 4 avg. #ICP iterations: 18.25 avg. #corrs. 2238.25, |G|: 4 sec: 0.068
+It: 238 #keyframes: 4 avg. #ICP iterations: 17.75 avg. #corrs. 2203.25, |G|: 4 sec: 0.092
+It: 239 #keyframes: 4 avg. #ICP iterations: 19.5 avg. #corrs. 2220.75, |G|: 4 sec: 0.09
+It: 240 #keyframes: 4 avg. #ICP iterations: 22.25 avg. #corrs. 2188.75, |G|: 4 sec: 0.089
+It: 241 #keyframes: 4 avg. #ICP iterations: 23 avg. #corrs. 2385.5, |G|: 4 sec: 0.097
+It: 242 #keyframes: 4 avg. #ICP iterations: 20.25 avg. #corrs. 2400.25, |G|: 4 sec: 0.094
+It: 243 #keyframes: 4 avg. #ICP iterations: 19 avg. #corrs. 2406.25, |G|: 4 sec: 0.091
+It: 244 #keyframes: 4 avg. #ICP iterations: 15 avg. #corrs. 2360.5, |G|: 4 sec: 0.061
+It: 245 #keyframes: 4 avg. #ICP iterations: 18.5 avg. #corrs. 2275.75, |G|: 4 sec: 0.097
+It: 246 #keyframes: 4 avg. #ICP iterations: 15.25 avg. #corrs. 2257.75, |G|: 4 sec: 0.082
+It: 247 #keyframes: 4 avg. #ICP iterations: 18 avg. #corrs. 2423.25, |G|: 4 sec: 0.079
+It: 248 #keyframes: 4 avg. #ICP iterations: 15.5 avg. #corrs. 2414.75, |G|: 4 sec: 0.111
+It: 249 #keyframes: 4 avg. #ICP iterations: 16 avg. #corrs. 2333.75, |G|: 4 sec: 0.082
+It: 250 #keyframes: 4 avg. #ICP iterations: 26 avg. #corrs. 2307.5, |G|: 4 sec: 0.119
+It: 251 #keyframes: 4 avg. #ICP iterations: 21 avg. #corrs. 2251.75, |G|: 4 sec: 0.116
+It: 252 #keyframes: 4 avg. #ICP iterations: 20.75 avg. #corrs. 2177.75, |G|: 4 sec: 0.098
+It: 253 #keyframes: 4 avg. #ICP iterations: 14 avg. #corrs. 2339.75, |G|: 4 sec: 0.083
+It: 254 #keyframes: 4 avg. #ICP iterations: 17.5 avg. #corrs. 2360.25, |G|: 4 sec: 0.093
+It: 255 #keyframes: 4 avg. #ICP iterations: 15.5 avg. #corrs. 2279.75, |G|: 4 sec: 0.078
+It: 256 #keyframes: 4 avg. #ICP iterations: 20 avg. #corrs. 2222.5, |G|: 4 sec: 0.113
+It: 257 #keyframes: 4 avg. #ICP iterations: 18 avg. #corrs. 2144.75, |G|: 4 sec: 0.085
+It: 258 #keyframes: 4 avg. #ICP iterations: 19.25 avg. #corrs. 2075.5, |G|: 4 sec: 0.091
+It: 259 #keyframes: 4 avg. #ICP iterations: 16.5 avg. #corrs. 2247.5, |G|: 4 sec: 0.086
+It: 260 #keyframes: 4 avg. #ICP iterations: 16.75 avg. #corrs. 2196, |G|: 4 sec: 0.08
+It: 261 #keyframes: 4 avg. #ICP iterations: 22.25 avg. #corrs. 2182, |G|: 4 sec: 0.119
+It: 262 #keyframes: 4 avg. #ICP iterations: 20.5 avg. #corrs. 2085.75, |G|: 4 sec: 0.078
+It: 263 #keyframes: 4 avg. #ICP iterations: 15 avg. #corrs. 1986.25, |G|: 4 sec: 0.058
+It: 264 #keyframes: 4 avg. #ICP iterations: 19.25 avg. #corrs. 1912.75, |G|: 4 sec: 0.074
+It: 265 #keyframes: 4 avg. #ICP iterations: 20 avg. #corrs. 1965.25, |G|: 4 sec: 0.088
+It: 266 #keyframes: 4 avg. #ICP iterations: 21 avg. #corrs. 1874, |G|: 4 sec: 0.094
+It: 267 #keyframes: 4 avg. #ICP iterations: 23.25 avg. #corrs. 1864.25, |G|: 4 sec: 0.106
+It: 268 #keyframes: 4 avg. #ICP iterations: 19 avg. #corrs. 1848, |G|: 4 sec: 0.086
+It: 269 #keyframes: 4 avg. #ICP iterations: 21.5 avg. #corrs. 1791.5, |G|: 4 sec: 0.091
+It: 270 #keyframes: 4 avg. #ICP iterations: 24 avg. #corrs. 1740.5, |G|: 4 sec: 0.086
+Finished running
+Pipeline only: 14.2234frame/s
+Avg. FPS: 13.0959
+Total time (ms): Start to End: 20693.5, Sum of components: 20593.5
+Dataloading: 1550.97ms ( 7.53137 %) 
+Preprocessing: 1889.93ms ( 9.17734 %) 
+ICP: 16118.2ms ( 78.2683 %) 
+Graph optimization: 562.084ms ( 2.72943 %) 
+Graph update: 472.314ms ( 2.29351 %) 

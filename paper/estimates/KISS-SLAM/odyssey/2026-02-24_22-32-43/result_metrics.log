@@ -1,0 +1,12 @@
+─────────────────────────── Results for OdysseyDataset Sequence Highway2 ───────────────────────────
++---------------------------------+---------+----------+
+|                          Metric |  Value  | Units    |
++=================================+=========+==========+
+|       Average Translation Error |  0.900  | %        |
+|        Average Rotational Error |  0.004  | deg/m    |
+| Absolute Trajectory Error (ATE) | 141.318 | m        |
+| Absolute Rotational Error (ARE) |  0.231  | rad      |
+|               Average Frequency |   20    | Hz       |
+|                 Average Runtime |   49    | ms       |
+|        Number of closures found |    0    | closures |
++---------------------------------+---------+----------+

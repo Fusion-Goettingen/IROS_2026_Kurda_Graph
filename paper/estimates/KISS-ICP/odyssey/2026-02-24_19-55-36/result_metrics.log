@@ -1,0 +1,11 @@
+─────────────────────────── Results for OdysseyDataset Sequence Theater3 ───────────────────────────
++---------------------------------+-------+-------+
+|                          Metric | Value | Units |
++=================================+=======+=======+
+|       Average Translation Error | 0.867 | %     |
+|        Average Rotational Error | 0.004 | deg/m |
+| Absolute Trajectory Error (ATE) | 8.468 | m     |
+| Absolute Rotational Error (ARE) | 0.034 | rad   |
+|               Average Frequency |  30   | Hz    |
+|                 Average Runtime |  33   | ms    |
++---------------------------------+-------+-------+

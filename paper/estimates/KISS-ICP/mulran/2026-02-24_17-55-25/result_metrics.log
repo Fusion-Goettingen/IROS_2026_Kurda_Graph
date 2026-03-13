@@ -1,0 +1,11 @@
+──────────────────────────── Results for MulranDataset Sequence KAIST02 ────────────────────────────
++---------------------------------+--------+-------+
+|                          Metric | Value  | Units |
++=================================+========+=======+
+|       Average Translation Error | 1.959  | %     |
+|        Average Rotational Error | 0.007  | deg/m |
+| Absolute Trajectory Error (ATE) | 12.597 | m     |
+| Absolute Rotational Error (ARE) | 0.058  | rad   |
+|               Average Frequency |   67   | Hz    |
+|                 Average Runtime |   15   | ms    |
++---------------------------------+--------+-------+

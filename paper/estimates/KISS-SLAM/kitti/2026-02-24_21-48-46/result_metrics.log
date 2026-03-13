@@ -1,0 +1,12 @@
+─────────────────────────── Results for KITTIOdometryDataset Sequence 06 ───────────────────────────
++---------------------------------+-------+----------+
+|                          Metric | Value | Units    |
++=================================+=======+==========+
+|       Average Translation Error | 0.315 | %        |
+|        Average Rotational Error | 0.001 | deg/m    |
+| Absolute Trajectory Error (ATE) | 0.295 | m        |
+| Absolute Rotational Error (ARE) | 0.005 | rad      |
+|               Average Frequency |  45   | Hz       |
+|                 Average Runtime |  23   | ms       |
+|        Number of closures found |   5   | closures |
++---------------------------------+-------+----------+

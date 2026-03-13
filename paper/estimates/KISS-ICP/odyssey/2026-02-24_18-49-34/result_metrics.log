@@ -1,0 +1,11 @@
+───────────────────────── Results for OdysseyDataset Sequence CountryRoad3 ─────────────────────────
++---------------------------------+--------+-------+
+|                          Metric | Value  | Units |
++=================================+========+=======+
+|       Average Translation Error | 1.316  | %     |
+|        Average Rotational Error | 0.005  | deg/m |
+| Absolute Trajectory Error (ATE) | 46.807 | m     |
+| Absolute Rotational Error (ARE) | 0.164  | rad   |
+|               Average Frequency |   32   | Hz    |
+|                 Average Runtime |   31   | ms    |
++---------------------------------+--------+-------+

@@ -1,0 +1,11 @@
+─────────────────────────── Results for OdysseyDataset Sequence Highway3 ───────────────────────────
++---------------------------------+---------+-------+
+|                          Metric |  Value  | Units |
++=================================+=========+=======+
+|       Average Translation Error |  0.804  | %     |
+|        Average Rotational Error |  0.003  | deg/m |
+| Absolute Trajectory Error (ATE) | 126.095 | m     |
+| Absolute Rotational Error (ARE) |  0.198  | rad   |
+|               Average Frequency |   33    | Hz    |
+|                 Average Runtime |   31    | ms    |
++---------------------------------+---------+-------+

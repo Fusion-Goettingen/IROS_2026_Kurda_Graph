@@ -1,0 +1,12 @@
+──────────────────────── Results for OdysseyDataset Sequence HighwayTunnel3 ────────────────────────
++---------------------------------+---------+----------+
+|                          Metric |  Value  | Units    |
++=================================+=========+==========+
+|       Average Translation Error |  3.698  | %        |
+|        Average Rotational Error |  0.005  | deg/m    |
+| Absolute Trajectory Error (ATE) | 265.560 | m        |
+| Absolute Rotational Error (ARE) |  0.742  | rad      |
+|               Average Frequency |   19    | Hz       |
+|                 Average Runtime |   51    | ms       |
+|        Number of closures found |   16    | closures |
++---------------------------------+---------+----------+

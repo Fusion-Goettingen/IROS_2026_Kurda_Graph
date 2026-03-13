@@ -1,0 +1,56 @@
+{
+  "preprecessing_subsampling_method": "voxel",
+  "preprocessing_remove_nans": false,
+
+  "keyframe_maximum_distance" : 30.0,
+  "keyframe_minimum_distance" : 9.0,
+  "subsampling_voxelsize_map" : 0.4,
+  "subsampling_voxelsize_icp" : 1.8,
+
+  "subsampling_random_by_range_dmax": 160,
+  "subsampling_random_by_range_p1": 3000,
+  "subsampling_random_by_range_p2": 3000,
+
+  "map_voxelsize": 1.6,
+  "map_max_points_per_voxel": 20,
+  "remove_non_keyframes": true,
+  "insert_point_to_old_keyframe": true,
+  "insert_point_using_go_output": true,
+  "prune_distant_voxels": false,
+  "voxel_pruning_distance": 1000000000,
+  "diagonal_information_only": true,
+  "information_matrix": "icp_diag",
+
+  "intensity_scaling" : 0.0,
+
+  "icp_alpha" : 1,
+  "icp_lambda" : 0,
+
+  "deskew" : false,
+  
+  "icp_adaptive" : true,
+  "icp_adaptive_lidar_distance" : 160,
+  "icp_init_sigma" : 1,
+  "icp_maximum_iterations" : 100,
+  "icp_minumum_magnitude" : 1E-5,
+  "icp_minimum_corresposdences" : 200,
+  "icp_enable_transformation_magnitude": false,
+
+  "enable_graph_optimization": true,
+  "go_adaptive" : false,
+  "go_init_sigma" : 1.0,
+  "go_maximum_iterations" : 100,
+  "go_minimum_magnitude" : 1E-5,
+  "go_optimize_only_last_pose": false,
+  "distance_mode": "last",
+  "go_robust": false,
+
+  "go_alpha" : 1,
+  "go_lambda" : 0,
+
+  "go_form_implicit_edges" : "strat_2",
+  "edge_composition_method": "naiive",
+  "inverse_strategy": "naiive",
+
+  "tinkhonov_matrix": [0,100,100,0,0,0]
+}

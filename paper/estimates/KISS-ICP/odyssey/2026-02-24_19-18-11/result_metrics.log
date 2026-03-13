@@ -1,0 +1,11 @@
+────────────────────────── Results for OdysseyDataset Sequence InnerCity1 ──────────────────────────
++---------------------------------+-------+-------+
+|                          Metric | Value | Units |
++=================================+=======+=======+
+|       Average Translation Error | 0.699 | %     |
+|        Average Rotational Error | 0.003 | deg/m |
+| Absolute Trajectory Error (ATE) | 1.325 | m     |
+| Absolute Rotational Error (ARE) | 0.026 | rad   |
+|               Average Frequency |  32   | Hz    |
+|                 Average Runtime |  31   | ms    |
++---------------------------------+-------+-------+

@@ -1,0 +1,12 @@
+─────────────────────────── Results for OdysseyDataset Sequence Tunnel1 ────────────────────────────
++---------------------------------+--------+----------+
+|                          Metric | Value  | Units    |
++=================================+========+==========+
+|       Average Translation Error | 25.451 | %        |
+|        Average Rotational Error | 0.023  | deg/m    |
+| Absolute Trajectory Error (ATE) | 23.211 | m        |
+| Absolute Rotational Error (ARE) | 0.049  | rad      |
+|               Average Frequency |   28   | Hz       |
+|                 Average Runtime |   36   | ms       |
+|        Number of closures found |   0    | closures |
++---------------------------------+--------+----------+

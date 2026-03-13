@@ -1,0 +1,12 @@
+─────────────────────────── Results for OdysseyDataset Sequence Theater1 ───────────────────────────
++---------------------------------+-------+----------+
+|                          Metric | Value | Units    |
++=================================+=======+==========+
+|       Average Translation Error | 0.862 | %        |
+|        Average Rotational Error | 0.004 | deg/m    |
+| Absolute Trajectory Error (ATE) | 8.878 | m        |
+| Absolute Rotational Error (ARE) | 0.037 | rad      |
+|               Average Frequency |  20   | Hz       |
+|                 Average Runtime |  50   | ms       |
+|        Number of closures found |   0   | closures |
++---------------------------------+-------+----------+

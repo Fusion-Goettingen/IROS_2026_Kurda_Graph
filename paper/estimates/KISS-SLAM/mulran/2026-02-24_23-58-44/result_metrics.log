@@ -1,0 +1,12 @@
+───────────────────────────── Results for MulranDataset Sequence DCC01 ─────────────────────────────
++---------------------------------+-------+----------+
+|                          Metric | Value | Units    |
++=================================+=======+==========+
+|       Average Translation Error | 2.593 | %        |
+|        Average Rotational Error | 0.007 | deg/m    |
+| Absolute Trajectory Error (ATE) | 5.447 | m        |
+| Absolute Rotational Error (ARE) | 0.033 | rad      |
+|               Average Frequency |  40   | Hz       |
+|                 Average Runtime |  25   | ms       |
+|        Number of closures found |  26   | closures |
++---------------------------------+-------+----------+

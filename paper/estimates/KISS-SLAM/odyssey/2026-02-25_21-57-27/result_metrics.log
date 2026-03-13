@@ -1,0 +1,12 @@
+───────────────────────── Results for OdysseyDataset Sequence Marketplace1 ─────────────────────────
++---------------------------------+-------+----------+
+|                          Metric | Value | Units    |
++=================================+=======+==========+
+|       Average Translation Error | 1.050 | %        |
+|        Average Rotational Error | 0.006 | deg/m    |
+| Absolute Trajectory Error (ATE) | 0.387 | m        |
+| Absolute Rotational Error (ARE) | 0.019 | rad      |
+|               Average Frequency |  23   | Hz       |
+|                 Average Runtime |  42   | ms       |
+|        Number of closures found |   0   | closures |
++---------------------------------+-------+----------+

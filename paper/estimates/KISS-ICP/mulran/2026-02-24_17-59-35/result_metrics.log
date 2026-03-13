@@ -1,0 +1,11 @@
+────────────────────────── Results for MulranDataset Sequence Riverside01 ──────────────────────────
++---------------------------------+--------+-------+
+|                          Metric | Value  | Units |
++=================================+========+=======+
+|       Average Translation Error | 3.123  | %     |
+|        Average Rotational Error | 0.007  | deg/m |
+| Absolute Trajectory Error (ATE) | 45.881 | m     |
+| Absolute Rotational Error (ARE) | 0.099  | rad   |
+|               Average Frequency |   90   | Hz    |
+|                 Average Runtime |   12   | ms    |
++---------------------------------+--------+-------+
